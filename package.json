@@ -1,0 +1,46 @@
+{
+  "name": "grunt-qunit-node",
+  "description": "Grunt task that runs QUnit tests in Node.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mucaho/grunt-qunit-node",
+  "author": {
+    "name": "mucaho",
+    "email": "mucaho@gmail.com",
+    "url": "https://github.com/mucaho"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mucaho/grunt-qunit-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mucaho/grunt-qunit-node/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "files": [
+    "tasks",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-jsvalidate": "^0.2.2",
+    "qunitjs": "^2.3.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0",
+    "qunitjs": "^2.0.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

@@ -1,0 +1,14 @@
+* text eol=lf
+
+#* text=auto
+
+#*.js text
+#*.json text
+#*.md text
+#LICENSE text
+
+#.gitignore text
+#.gitattributes text
+#.editorconfig text
+#.jscsrc text
+#.jshintrc text
